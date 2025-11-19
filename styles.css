@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+}
+
+body {
+  background: url(imagem/paisagem-natural.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.container {
+    border: 2px solid #333;
+    padding: 25px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    background-color: #000000;
+    opacity: 0.8;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.input-cidade {
+    width: calc(100% - 100px);
+    outline: none;
+    border: none;
+    padding: 5px;
+    background-color: #3f3f3f3f;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+button{
+    float: right;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #333;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.lupa {
+    height: 20px;
+}
+
+button:hover {
+   background-color: #9e9e9e;
+}
+
+.cidade {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.container-media {
+    color: #fff;
+    margin-top: 30px;
+}
+
+.container-baixo {
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+.graus {
+    margin-top: 10px;
+}
+
+.clima{
+    margin-top: 12px;
+}
+
+
+.umidade {
+    margin-top: 10px;
+}
+
